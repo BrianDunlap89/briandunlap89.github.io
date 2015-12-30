@@ -65,6 +65,10 @@ h6 {
     background-color: #f7f7f7;
 }
 
+.bg-dark-gray {
+    background-color: #222222;
+}
+
 .bg-darkest-gray {
     background-color: #222;
 }
@@ -869,7 +873,7 @@ ul.social-buttons li a:active {
     min-height: 100%;
     border: 0;
     border-radius: 0;
-    text-align: center;
+    text-align: left;
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -878,6 +882,12 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
+}
+
+.portfolio-modal .modal-content .modal-body p {
+    margin-left: 17px;
+    margin-top: 25px;
+    padding-top: 15px;
 }
 
 .portfolio-modal .modal-content p {
@@ -898,6 +908,18 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-body ul {
+    float: left;
+}
+
+.portfolio-modal .modal-body ul li {
+    margin: 20px 0;
+}
+
+.modal-body .btn {
+    float: right;
 }
 
 .portfolio-modal .close-modal {
