@@ -17,14 +17,14 @@
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
                             <ul style="list-style: none; text-align: left">
-                                <li><strong>Role:</strong>
-                                    {{ post.role }}
+                                <li>Role:
+                                    <strong>{{ post.role }}</strong>
                                 </li>
-                                <li><strong>Tech:</strong>
-                                    <strong><a href="http://startbootstrap.com">{{ post.tech }}</a>
+                                <li>Tech:
+                                    <strong>{{ post.tech }}</strong>
                                 </li>
-                                <li><strong>Links:</strong>
-                                    <a href="{{ post.link }}">{{ post.source }}</a>
+                                <li>Links:
+                                    <strong><a href="{{ post.link }}">{{ post.source }}</a></strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>

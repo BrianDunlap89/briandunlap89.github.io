@@ -69,6 +69,15 @@ h6 {
     background-color: #222222;
 }
 
+.bg-custom-image {
+    background-image: url(img/header-bg.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .bg-darkest-gray {
     background-color: #222;
 }
@@ -180,7 +189,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: 'Signika', sans-serif;
+    font-weight: 500;
     color: #{{ site.color.primary }};
 }
 
@@ -271,6 +281,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url(img/dog.jpg);
+    background-color: #222;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -282,7 +293,6 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
-    color: black;
     text-align: center;
 }
 
@@ -301,6 +311,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    color: #fff;
 }
 
 header .wrapper-div {
@@ -338,7 +349,7 @@ header .wrapper-div ul {
 }
 
 section {
-    padding: 100px 0;
+    margin: -25px 0;
 }
 
 section h2.section-heading {
@@ -352,7 +363,6 @@ section h3.section-subheading {
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: italic;
     font-weight: 400;
 }
 
@@ -364,6 +374,14 @@ section h3.section-subheading {
 
 .skills-description {
     margin: -50px 0 50px 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #{{ site.color.secondary-dark }}
+}
+
+.skills-description .quote {
+    font-size: 26px;
+    font-weight: 400;
+    font-style: italic;
 }
 
 #container { text-align: center; margin: 20px; }
@@ -436,16 +454,17 @@ a { text-decoration: none; color: #EC5C93; }
 
 .skill-title {
     float: right;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-align: right;
-    margin-bottom: -5px;
+    margin-bottom: -4px;
     margin-top: 2px;
     margin-right: 2px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
-#author {
+.author {
     text-align: right;
-    margin-right: 325px;
+    margin-right: 270px ;
 }
 
 #portfolio .portfolio-item {
@@ -572,6 +591,11 @@ a { text-decoration: none; color: #EC5C93; }
     left: -15px;
     border-right-width: 15px;
     border-left-width: 0;
+}
+
+.timeline>li .timeline-panel p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
 }
 
 .timeline>li .timeline-panel:after {
@@ -759,6 +783,7 @@ section#contact {
 
 section#contact .section-heading {
     color: #fff;
+    margin-top: -30px;
 }
 
 section#contact .form-group {
@@ -776,6 +801,14 @@ section#contact .form-group input.form-control {
 
 section#contact .form-group textarea.form-control {
     height: 236px;
+}
+
+section#contact .col-lg-12 h3 {
+    color: #fff;
+    font-style: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 section#contact .form-control:focus {
@@ -892,11 +925,17 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1em;
+}
+
+.portfolio-modal .modal-body img {
+    padding-bottom: 30px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -911,15 +950,25 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-body ul {
+    font-family: 'Source Sans Pro', sans-serif;
     float: left;
 }
 
+.portfolio-modal .modal-body ul a {
+    color: #{{ site.color.secondary-dark }}
+}
+
+.portfolio-modal .modal-body ul a:hover {
+    color: #{{ site.color.secondary }}
+}
+
 .portfolio-modal .modal-body ul li {
-    margin: 20px 0;
+    margin: 20px 0 20px -25px;
+    font-size: 17px;
 }
 
 .modal-body .btn {
-    float: right;
+   float: right;
 }
 
 .portfolio-modal .close-modal {
