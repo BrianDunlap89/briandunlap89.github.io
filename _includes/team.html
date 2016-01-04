@@ -1,33 +1,30 @@
-<!-- Team Section -->
-    <!-- <section id="team" class="bg-light-gray">
+<!-- Resume Section -->
+    <section id="team">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row">
-                {% for member in site.people %}
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
-                        <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.position }}</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                            <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                            {% endfor %}
-
-                        </ul>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-                </div>
-            </div>
+            <h2 class="resume-header">Skills</h2>
+                <ul class="resume-entries">
+                  <li><strong>Programming Languages & Frameworks</strong>: Ruby, HTML, CSS, SQL, Rails, Bootstrap, Jekyll</li>
+                  <li><strong>Gems, Databases & Tools</strong>: PostgreSQL, Sqlite, RSpec, Factory Girl, Git/Github, Devise, Geocoder, ActiveRecord, Pry, Puma, Foreman, Paperclip, AWS, Redis/Resque, Heroku, jbuilder</li>
+                  <li><strong>Marketing / CRM / Project Management</strong>: HubSpot, WordPress, Basecamp, Slack, Asana</li>
+                  <li><strong>General Tools</strong>: Sublime Text, Postman, Google Drive, Photoshop, Illustrator</li>
+                </ul>
+            <h2 class="resume-header">Education</h2>
+                <ul class="resume-entries">
+                  <li class="spacey">
+                  <strong>The Iron Yard</strong><br>
+                  <em>Sept 2015 – Dec 2015</em><br>
+                  <p class="education">
+                  A three-month intensive program focused on backend development with Ruby on Rails
+                  </p>
+                  </li>
+                  <li class><strong>Macalester College</strong><br>
+                  <em>Sept 2007 – May 2011</em><br>
+                  <p class="education">B.A. in International Business and Affairs, Russian Cultural and Literary Studies, 2011
+                  Cum Laude; Dean’s List; Recipient of the Virginia McKnight Binger Prize for exceptional proficiency in Russian language and literature studies.
+                  </p>
+                  </li>
+                </ul>
+            <h2 class="resume-header">Work Experience</h2>
+            <h2 class="resume-header">Volunteering!</h2>
         </div>
-    </section>  -->
+    </section> 

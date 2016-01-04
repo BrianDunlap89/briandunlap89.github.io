@@ -189,7 +189,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: 'Signika', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 500;
     color: #{{ site.color.primary }};
 }
@@ -372,13 +372,19 @@ section h3.section-subheading {
     }
 }
 
+section#services .special-header {
+    margin-top: -50px;
+}
+
 .skills-description {
-    margin: -50px 0 50px 0;
+    margin-top: px;
+    margin-bottom: 100px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #{{ site.color.secondary-dark }}
 }
 
 .skills-description .quote {
+    padding-top: 70px;
     font-size: 26px;
     font-weight: 400;
     font-style: italic;
@@ -1026,4 +1032,35 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
+}
+
+section#team {
+    background-image: url(img/nebula-muted.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#team h2 {
+    margin: 35px 0;
+}
+
+.resume-entries {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    list-style-type: none;
+    margin-left: -10px;
+}
+
+.resume-entries li {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.education {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.4em;
 }
