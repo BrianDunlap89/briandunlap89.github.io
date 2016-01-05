@@ -4,8 +4,8 @@ subtitle: Simple Console App
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: 
-thumbnail: 
+img: t3-redux.png
+thumbnail: t3-redux-thumbnail.png
 alt: image-alt
 tech: Plain ol' Ruby
 role: Progenitor

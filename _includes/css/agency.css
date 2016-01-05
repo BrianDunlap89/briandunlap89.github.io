@@ -190,7 +190,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     color: #{{ site.color.primary }};
 }
 
@@ -1059,8 +1059,42 @@ section#team h2 {
     font-size: 18px;
 }
 
+.professional {
+    font-size: 16px;
+    line-height: 1.4em;
+    margin-left: 10px;
+}
+
+.first {
+    font-size: 16px;
+    line-height: 1.4em;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
 .education {
     margin-top: 10px;
     font-size: 16px;
     line-height: 1.4em;
+}
+
+.volunteering {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.4em;
+}
+
+#jobs {
+    list-style-type: georgian;
+    font-size: 18px;
+}
+
+#jobs p {
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+section#team .section-heading {
+    margin-top: -50px;
+    text-align: center;
 }
