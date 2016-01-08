@@ -10,10 +10,6 @@ body {
     color: #{{ site.color.secondary-dark }};
 }
 
-.text-muted {
-    color: #000000;
-}
-
 .text-primary {
     color: #99ccff;
 }
@@ -373,18 +369,24 @@ section h3.section-subheading {
 }
 
 section#services .special-header {
-    margin-top: -50px;
+    margin-top: -60px;
+}
+
+.bottom {
+    height: 2px;
+    width: 100%;
+    margin-bottom: -60px;
 }
 
 .skills-description {
     margin-top: px;
     margin-bottom: 100px;
     font-family: 'Source Sans Pro', sans-serif;
-    color: #{{ site.color.secondary-dark }}
+    color: #f7f7f7
 }
 
 .skills-description .quote {
-    padding-top: 70px;
+    padding-top: 20px;
     font-size: 26px;
     font-weight: 400;
     font-style: italic;
@@ -473,6 +475,10 @@ a { text-decoration: none; color: #EC5C93; }
     margin-right: 270px ;
 }
 
+.portfolio-header {
+    color: #222222;
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -555,6 +561,7 @@ a { text-decoration: none; color: #EC5C93; }
     position: relative;
     padding: 0;
     list-style: none;
+    margin-bottom: -30px;
 }
 
 .timeline:before {
@@ -973,8 +980,13 @@ ul.social-buttons li a:active {
     font-size: 17px;
 }
 
-.modal-body .btn {
-   float: right;
+.modal-button {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.modal-button button {
+    margin-left: 50px;
 }
 
 .portfolio-modal .close-modal {
@@ -1052,11 +1064,24 @@ section#team h2 {
     color: white;
     list-style-type: none;
     margin-left: -10px;
+    font-size: 16px;
 }
+
+#third {
+    margin-bottom: -50px;
+}
+
+.resume-button {
+    margin-top: 110px;
+    margin-bottom: -35px;
+}
+/*.final {
+    margin-bottom: -100px;
+}*/
 
 .resume-entries li {
     margin: 20px 0;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .professional {
@@ -1085,7 +1110,7 @@ section#team h2 {
 }
 
 #jobs {
-    list-style-type: georgian;
+    list-style-type: none;
     font-size: 18px;
 }
 
@@ -1097,4 +1122,30 @@ section#team h2 {
 section#team .section-heading {
     margin-top: -50px;
     text-align: center;
+}
+
+.contact-footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.timeline-body a {
+    color: #{{ site.color.secondary }};
+    text-decoration: none;
+}
+
+.email {
+    color: #{{ site.color.secondary }};
+}
+
+section#about .section-heading {
+    margin-top: -30px;
+}
+
+#portfolio .section-heading {
+    margin-top: -30px;
 }
