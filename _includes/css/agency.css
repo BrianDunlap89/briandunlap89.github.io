@@ -472,7 +472,7 @@ a { text-decoration: none; color: #EC5C93; }
 
 .author {
     text-align: right;
-    margin-right: 270px ;
+    margin-right: 20% ;
 }
 
 .portfolio-header {
@@ -1059,20 +1059,33 @@ section#team h2 {
     margin: 35px 0;
 }
 
+.resume {
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 85px;
+}
+
+.resume-header {
+    margin-top: 20px;
+}
+
 .resume-entries {
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
     list-style-type: none;
     margin-left: -10px;
+    margin-bottom: 20px;
     font-size: 16px;
 }
 
-#third {
-    margin-bottom: -50px;
+.resume-section {
+    margin-top: 50px;
+    margin-right: 17%;
 }
 
 .resume-button {
-    margin-top: 110px;
+    margin-top: 50px;
     margin-bottom: -35px;
 }
 /*.final {
@@ -1082,19 +1095,6 @@ section#team h2 {
 .resume-entries li {
     margin: 20px 0;
     font-size: 16px;
-}
-
-.professional {
-    font-size: 16px;
-    line-height: 1.4em;
-    margin-left: 10px;
-}
-
-.first {
-    font-size: 16px;
-    line-height: 1.4em;
-    margin-top: 20px;
-    margin-left: 10px;
 }
 
 .education {
@@ -1114,11 +1114,6 @@ section#team h2 {
     font-size: 18px;
 }
 
-#jobs p {
-    margin-left: 25px;
-    font-size: 16px;
-}
-
 section#team .section-heading {
     margin-top: -50px;
     text-align: center;
@@ -1131,14 +1126,16 @@ section#team .section-heading {
     font-weight: 400;
     text-align: center;
     margin-top: 55px;
+    text-shadow: 3px 3px #222222;
 }
+
 
 .timeline-body a {
     color: #{{ site.color.secondary }};
     text-decoration: none;
 }
 
-.email {
+.email a {
     color: #{{ site.color.secondary }};
 }
 
