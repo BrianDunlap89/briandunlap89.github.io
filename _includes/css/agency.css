@@ -368,8 +368,8 @@ section h3.section-subheading {
     }
 }
 
-section#services .special-header {
-    margin-top: 40px;
+section#services .section-heading {
+    margin-top: 5%;
 }
 
 .skills-description {
@@ -554,7 +554,7 @@ a { text-decoration: none; color: #EC5C93; }
     position: relative;
     padding: 0;
     list-style: none;
-    margin-bottom: 30px;
+    margin-bottom: 5%;
 }
 
 .timeline:before {
@@ -1078,8 +1078,8 @@ section#team h2 {
 }
 
 .resume-button {
-    margin-top: 90px;
-    margin-bottom: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 /*.final {
     margin-bottom: -100px;
@@ -1108,7 +1108,7 @@ section#team h2 {
 }
 
 section#team .section-heading {
-    margin-top: 40px;
+    margin-top: 5%;
     text-align: center;
 }
 
@@ -1133,9 +1133,13 @@ section#team .section-heading {
 }
 
 section#about .section-heading {
-    margin-top: 40px;
+    margin-top: 5%;
+}
+
+.bottom {
+    margin-bottom: 5%;
 }
 
 #portfolio .section-heading {
-    margin-top: 40px;
+    margin-top: 5%;
 }
