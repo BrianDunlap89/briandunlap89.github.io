@@ -369,17 +369,10 @@ section h3.section-subheading {
 }
 
 section#services .special-header {
-    margin-top: -60px;
-}
-
-.bottom {
-    height: 2px;
-    width: 100%;
-    margin-bottom: -60px;
+    margin-top: 40px;
 }
 
 .skills-description {
-    margin-top: px;
     margin-bottom: 100px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #f7f7f7
@@ -561,7 +554,7 @@ a { text-decoration: none; color: #EC5C93; }
     position: relative;
     padding: 0;
     list-style: none;
-    margin-bottom: -30px;
+    margin-bottom: 30px;
 }
 
 .timeline:before {
@@ -1085,8 +1078,8 @@ section#team h2 {
 }
 
 .resume-button {
-    margin-top: 50px;
-    margin-bottom: -35px;
+    margin-top: 90px;
+    margin-bottom: 30px;
 }
 /*.final {
     margin-bottom: -100px;
@@ -1115,7 +1108,7 @@ section#team h2 {
 }
 
 section#team .section-heading {
-    margin-top: -50px;
+    margin-top: 40px;
     text-align: center;
 }
 
@@ -1140,9 +1133,9 @@ section#team .section-heading {
 }
 
 section#about .section-heading {
-    margin-top: -30px;
+    margin-top: 40px;
 }
 
 #portfolio .section-heading {
-    margin-top: -30px;
+    margin-top: 40px;
 }
