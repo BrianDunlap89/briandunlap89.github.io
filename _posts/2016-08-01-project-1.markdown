@@ -1,0 +1,15 @@
+---
+title: Testing Automation
+subtitle: Testing the Watir(s)
+layout: default
+modal-id: 1
+date: 2016-08-01
+img: automation-tests.png
+thumbnail: automation-tests.png
+alt: image-alt
+tech: Plain ol' Ruby
+role: Progenitor
+source: Github
+link: https://github.com/BrianDunlap89/shoestore
+---
+My first foray into automation testing, this project involved writing automated acceptance tests for  a super simple dummy website. Watir and RSpec were the primary tools involved. I also threw in a couple of PORO page objects (not the gem) to remove the bulk of the logic from the test suite. The only snag I hit was in figuring out how to dynamically append the values of the `MONTHS` hash (located in the `MonthPage` class) to the base uri, and for each permutation run the entire test script. T'was very easily resolved, though, with the proper `context` and `before(:context)` blocks.

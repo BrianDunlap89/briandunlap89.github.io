@@ -66,12 +66,23 @@ h6 {
 }
 
 .bg-custom-image {
-    background-image: url(img/header-bg.jpg);
+    background-image: url(img/stripes.png);
     min-height: 500px;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+#portfolio.bg-custom-image {
+    background-image: url(img/Rpdc_2560x1600.jpg);
+    background-attachment: scroll;
+}
+
+#about.bg-custom-image {
+    background-image: url(img/minimal.jpg);
+    background-attachment: scroll;
 }
 
 .bg-darkest-gray {
@@ -276,7 +287,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(img/dog.jpg);
+    background-image: url(img/planes2.jpg);
     background-color: #222;
     background-position: center center;
     background-repeat: none;
@@ -284,6 +295,8 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 
 header .intro-text {
@@ -369,7 +382,9 @@ section h3.section-subheading {
 }
 
 section#services .section-heading {
-    margin-top: 5%;
+    margin-top: 1%;
+    text-align: left;
+    margin-left: 12%;
 }
 
 .skills-description {
@@ -379,10 +394,12 @@ section#services .section-heading {
 }
 
 .skills-description .quote {
-    padding-top: 20px;
     font-size: 26px;
     font-weight: 400;
     font-style: italic;
+    text-align: left;
+    margin-left: 12%;
+    margin-right: 55%;
 }
 
 #container { text-align: center; margin: 20px; }
@@ -390,8 +407,8 @@ h2 { color: #CCC; }
 a { text-decoration: none; color: #EC5C93; }
 
 .bar-main-container {
-  margin: auto;
   margin-top: 2.8em;
+  margin-left: 5%;
   width: 900px;
   height: 75px;
   padding: 0 7px;
@@ -409,8 +426,9 @@ a { text-decoration: none; color: #EC5C93; }
 .bar-percentage {
   float: left;
   margin-top: 6px;
-  background: rgba(0,0,0,0.13);
-  -webkit-border-radius: 4px;
+  margin-right: 2%;
+/*  background: rgba(0,0,0,0.13);
+*/  -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
   padding: 13px 0px 7px 0px;
@@ -464,8 +482,8 @@ a { text-decoration: none; color: #EC5C93; }
 }
 
 .author {
-    text-align: right;
-    margin-right: 20% ;
+    text-align: left;
+    margin-left: 22%;
 }
 
 .portfolio-header {
@@ -475,6 +493,10 @@ a { text-decoration: none; color: #EC5C93; }
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+}
+
+section#portfolio h2 {
+    color: #9C3B93;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -785,6 +807,8 @@ section#contact {
     background-image: url(img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
+    padding-top: 22%;
+    padding-bottom: 22%;
 }
 
 section#contact .section-heading {
@@ -855,7 +879,8 @@ section#contact .text-danger {
 }
 
 footer {
-    padding: 25px 0;
+    padding-top: 15%;
+    padding-bottom: 15%;
     text-align: center;
 }
 
@@ -1142,4 +1167,15 @@ section#about .section-heading {
 
 #portfolio .section-heading {
     margin-top: 5%;
+}
+
+section #skills {
+    margin-top: 1%;
+    margin-bottom: 15px;
+    font-size: 40px;
+    margin-left: 10%;
+}
+
+.text-muted {
+    color: #E0E0E0;
 }
